@@ -9,10 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var InputName: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    @IBAction func BtnSubmit(_ sender: Any) {
+        let alertDialog = UIAlertController(title: "Welcome My App !", message: "Hello World" +
+            InputName.text!, preferredStyle: .alert)
+        alertDialog.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            present(alertDialog, animated: true, completion: nil )
+        
     }
 
     override func didReceiveMemoryWarning() {

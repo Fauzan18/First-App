@@ -14,6 +14,7 @@
 		AF24BA7F1F5E933C00694F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF24BA7D1F5E933C00694F82 /* LaunchScreen.storyboard */; };
 		AF24BA8A1F5E933D00694F82 /* First_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF24BA891F5E933D00694F82 /* First_AppTests.swift */; };
 		AF24BA951F5E933D00694F82 /* First_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF24BA941F5E933D00694F82 /* First_AppUITests.swift */; };
+		AF86D4851F66D2E7005670C9 /* iphone-7-plus-wallpaper-apple-black-white-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF86D4841F66D2E7005670C9 /* iphone-7-plus-wallpaper-apple-black-white-11.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AF24BA901F5E933D00694F82 /* First AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF24BA941F5E933D00694F82 /* First_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_AppUITests.swift; sourceTree = "<group>"; };
 		AF24BA961F5E933D00694F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF86D4841F66D2E7005670C9 /* iphone-7-plus-wallpaper-apple-black-white-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-7-plus-wallpaper-apple-black-white-11.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AF24BA731F5E933C00694F82 /* First App */ = {
 			isa = PBXGroup;
 			children = (
+				AF86D4841F66D2E7005670C9 /* iphone-7-plus-wallpaper-apple-black-white-11.jpg */,
 				AF24BA741F5E933C00694F82 /* AppDelegate.swift */,
 				AF24BA761F5E933C00694F82 /* ViewController.swift */,
 				AF24BA781F5E933C00694F82 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				AF24BA7F1F5E933C00694F82 /* LaunchScreen.storyboard in Resources */,
 				AF24BA7C1F5E933C00694F82 /* Assets.xcassets in Resources */,
+				AF86D4851F66D2E7005670C9 /* iphone-7-plus-wallpaper-apple-black-white-11.jpg in Resources */,
 				AF24BA7A1F5E933C00694F82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				AF24BA9B1F5E933D00694F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF24BA9C1F5E933D00694F82 /* Build configuration list for PBXNativeTarget "First AppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				AF24BA9E1F5E933D00694F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF24BA9F1F5E933D00694F82 /* Build configuration list for PBXNativeTarget "First AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				AF24BAA11F5E933D00694F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
